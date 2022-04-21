@@ -1,0 +1,167 @@
+.swiper-button-next,
+.swiper-button-prev
+{
+    color: #b48352;
+
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+
+    width: 32px;
+    height: 16px;
+    margin: auto;
+
+    transition: .2s linear;
+    transform: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-button-prev
+{
+    left: 0;
+}
+
+.swiper-button-next
+{
+    right: 0;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after
+{
+    display: none;
+}
+
+
+.swiper-button-next .icon,
+.swiper-button-prev .icon
+{
+    display: block;
+
+    width: 32px;
+    height: 16px;
+}
+
+.swiper-button-next .icon
+{
+    transform: rotate(180deg);
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover
+{
+    color: #8a5a30;
+}
+
+.swiper-button-prev:hover
+{
+    transform: translateX(-5px);
+}
+
+.swiper-button-next:hover
+{
+    transform: translateX(5px);
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+
+    width: 100%;
+    height: 8px;
+
+    pointer-events: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-pagination-bullet
+{
+    display: block;
+
+    width: 6px;
+    height: 6px;
+
+    transition: .2s linear;
+    pointer-events: auto;
+
+    opacity: 1;
+    border: none;
+    border-radius: 50%;
+    background: rgba(180, 131, 82, .6);
+}
+
+.swiper-pagination-bullet + .swiper-pagination-bullet
+{
+    margin-left: 8px !important;
+}
+
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet.active
+{
+    width: 8px;
+    height: 8px;
+
+    background: #b48352;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
+
+
+
+.swiper .controls
+{
+    position: relative;
+    z-index: 5;
+
+    display: flex;
+
+    margin-top: 40px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.controls .swiper-button-next,
+.controls .swiper-button-prev
+{
+    position: relative;
+
+    margin: 0;
+}
+
+
+.controls .swiper-horizontal > .swiper-pagination-bullets,
+.controls .swiper-pagination-bullets.swiper-pagination-horizontal,
+.controls .swiper-pagination-custom,
+.controls .swiper-pagination-fraction
+{
+    position: relative;
+
+    width: auto;
+    margin: 0 30px;
+}

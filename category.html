@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#577D31">
+		<meta name="theme-color" content="#577D31">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1163.css" media="print, (max-width: 1163px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="mob_close_btn"></button>
+
+					<div class="mob_scroll">
+						<div class="info">
+							<div class="cont row">
+								<a href="/" class="logo">
+									<img src="images/logo.svg" alt="">
+								</a>
+
+								<div class="socials">
+									<a href="/" target="_blank" rel="noopener nofollow" class="odnokl_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_odnokl"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+									</a>
+								</div>
+
+								<div class="search">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Поиск по сайту">
+
+										<button type="button" class="clear_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+										</button>
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+									</form>
+								</div>
+
+								<div class="phone">
+									<div><a href="tel:88005665986">8 800 566-59-86</a></div>
+
+									<div><button class="callback_btn modal_btn" data-modal="#callback_modal">Перезвоните мне!</button></div>
+								</div>
+
+								<div class="messengers">
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<img src="images/ic_telegram.svg" alt="" class="icon">
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<img src="images/ic_whatsapp.svg" alt="" class="icon">
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<img src="images/ic_viber.svg" alt="" class="icon">
+									</a>
+								</div>
+
+								<div class="langs modal_cont">
+									<button class="btn mini_modal_btn" data-modal-id="#langs_modal">
+										<span>ENG</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_down"></use></svg>
+									</button>
+
+									<div class="mini_modal" id="langs_modal">
+
+									</div>
+								</div>
+
+								<a href="/" class="cart_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+									<span class="count">3</span>
+								</a>
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont row">
+								<div class="catalog modal_cont">
+									<button class="btn mini_modal_btn" data-modal-id="#catalog_modal">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+										<span>Каталог</span>
+									</button>
+
+									<div class="mini_modal" id="catalog_modal">
+										<div class="cont">
+											<div class="columns">
+												<div><a href="/">
+													<div class="icon">
+														<img data-src="images/tmp/ic_category1.png" alt="" class="lazyload">
+													</div>
+													<span>Брус</span>
+												</a></div>
+
+												<div><a href="/">
+													<div class="icon">
+														<img data-src="images/tmp/ic_category2.png" alt="" class="lazyload">
+													</div>
+													<span>Доска</span>
+												</a></div>
+
+												<div><a href="/">
+													<div class="icon">
+														<img data-src="images/tmp/ic_category3.png" alt="" class="lazyload">
+													</div>
+													<span>Брусок</span>
+												</a></div>
+
+												<div><a href="/">
+													<div class="icon">
+														<img data-src="images/tmp/ic_category4.png" alt="" class="lazyload">
+													</div>
+													<span>Вагонка</span>
+												</a></div>
+
+												<div><a href="/">
+													<div class="icon">
+														<img data-src="images/tmp/ic_category5.png" alt="" class="lazyload">
+													</div>
+													<span>Блок хаус</span>
+												</a></div>
+
+												<div><a href="/">
+													<div class="icon">
+														<img data-src="images/tmp/ic_category6.png" alt="" class="lazyload">
+													</div>
+													<span>Имитация бруса</span>
+												</a></div>
+
+												<div><a href="/">
+													<div class="icon">
+														<img data-src="images/tmp/ic_category7.png" alt="" class="lazyload">
+													</div>
+													<span>Планкен</span>
+												</a></div>
+
+												<div><a href="/">
+													<div class="icon">
+														<img data-src="images/tmp/ic_category8.png" alt="" class="lazyload">
+													</div>
+													<span>Плинтус</span>
+												</a></div>
+
+												<div><a href="/">
+													<div class="icon">
+														<img data-src="images/tmp/ic_category9.png" alt="" class="lazyload">
+													</div>
+													<span>Погонаж</span>
+												</a></div>
+
+												<div><a href="/" class="all_link">
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</div>
+													<span>Смотреть все позиции каталога</span>
+												</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<nav class="menu row">
+									<div class="menu_item">
+										<a href="/">О компании</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Доставка и оплата</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Услуги</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Контакты</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_menu">
+					<div class="scroll">
+						<div class="data">
+							<div class="menu">
+								<div class="menu_item">
+									<button class="catalog_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+										<span>Каталог</span>
+									</button>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">О компании</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Доставка и оплата</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Услуги</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Контакты</a>
+								</div>
+							</div>
+
+
+							<div class="langs modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#mob_langs_modal">
+									<span>ENG</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_down"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="mob_langs_modal">
+									<a class="active">ENG</a>
+									<a href="/">RU</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow" class="odnokl_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_odnokl"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+								</a>
+							</div>
+
+							<div class="messengers">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_telegram.svg" alt="" class="icon">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_whatsapp.svg" alt="" class="icon">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_viber.svg" alt="" class="icon">
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<button class="callback_btn modal_btn" data-modal="#callback_modal">
+						<span>Перезвоните мне!</span>
+					</button>
+				</section>
+
+
+				<section class="mob_catalog">
+					<div class="scroll">
+						<div class="items">
+							<div><a href="/">
+								<div class="icon">
+									<img data-src="images/tmp/ic_category1.png" alt="" class="lazyload">
+								</div>
+								<span>Брус</span>
+							</a></div>
+
+							<div><a href="/">
+								<div class="icon">
+									<img data-src="images/tmp/ic_category2.png" alt="" class="lazyload">
+								</div>
+								<span>Доска</span>
+							</a></div>
+
+							<div><a href="/">
+								<div class="icon">
+									<img data-src="images/tmp/ic_category3.png" alt="" class="lazyload">
+								</div>
+								<span>Брусок</span>
+							</a></div>
+
+							<div><a href="/">
+								<div class="icon">
+									<img data-src="images/tmp/ic_category4.png" alt="" class="lazyload">
+								</div>
+								<span>Вагонка</span>
+							</a></div>
+
+							<div><a href="/">
+								<div class="icon">
+									<img data-src="images/tmp/ic_category5.png" alt="" class="lazyload">
+								</div>
+								<span>Блок хаус</span>
+							</a></div>
+
+							<div><a href="/">
+								<div class="icon">
+									<img data-src="images/tmp/ic_category6.png" alt="" class="lazyload">
+								</div>
+								<span>Имитация бруса</span>
+							</a></div>
+
+							<div><a href="/">
+								<div class="icon">
+									<img data-src="images/tmp/ic_category7.png" alt="" class="lazyload">
+								</div>
+								<span>Планкен</span>
+							</a></div>
+
+							<div><a href="/">
+								<div class="icon">
+									<img data-src="images/tmp/ic_category8.png" alt="" class="lazyload">
+								</div>
+								<span>Плинтус</span>
+							</a></div>
+
+							<div><a href="/">
+								<div class="icon">
+									<img data-src="images/tmp/ic_category9.png" alt="" class="lazyload">
+								</div>
+								<span>Погонаж</span>
+							</a></div>
+
+							<div><a href="/" class="all_link">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+								</div>
+								<span>Смотреть все позиции каталога</span>
+							</a></div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<button class="menu_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+						</button>
+
+						<a href="/" class="logo">
+							<img src="images/logo.svg" alt="">
+						</a>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg></button>
+
+							<div class="mini_modal" id="search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по сайту">
+
+									<button type="button" class="clear_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+									</button>
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+								</form>
+							</div>
+						</div>
+
+						<a href="tel:88005665986" class="phone_link">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+						</a>
+
+						<a href="/" class="cart_link">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+							<span class="count">3</span>
+						</a>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a>
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_down"></use></svg>
+							<span class="current">Каталог</span>
+						</div>
+
+						<div class="row">
+							<h1 class="page_title">Каталог</h1>
+
+							<div class="sort">
+								<div class="name">Сортировать:</div>
+
+								<div class="vals">
+									<button class="btn down">
+										<span>По цене</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_sort"></use></svg>
+									</button>
+
+									<button class="btn">
+										<span>По алфавиту</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_sort"></use></svg>
+									</button>
+								</div>
+
+								<button class="filter_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_filter"></use></svg>
+								</button>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="content_flex block">
+					<div class="cont row">
+						<aside>
+							<div class="filter">
+								<form action="" class="form">
+									<div class="item">
+										<div class="name">Категория</div>
+
+										<div class="data">
+											<div class="field">
+												<input type="checkbox" name="group1" id="group1_check1">
+												<label for="group1_check1">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Брус</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group1" id="group1_check2">
+												<label for="group1_check2">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Доска</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group1" id="group1_check3">
+												<label for="group1_check3">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Брусок</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group1" id="group1_check4">
+												<label for="group1_check4">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Вагонка</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group1" id="group1_check5">
+												<label for="group1_check5">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Блок хаус</div>
+												</label>
+											</div>
+
+											<div class="hide">
+												<div class="field">
+													<input type="checkbox" name="group1" id="group1_check6">
+													<label for="group1_check6">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Брус</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group1" id="group1_check7">
+													<label for="group1_check7">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Доска</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group1" id="group1_check8">
+													<label for="group1_check8">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Брусок</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group1" id="group1_check9">
+													<label for="group1_check9">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Вагонка</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group1" id="group1_check10">
+													<label for="group1_check10">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Блок хаус</div>
+													</label>
+												</div>
+											</div>
+
+											<button class="spoler_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_down"></use></svg>
+												<span>Еще 5</span>
+												<span>Свернуть</span>
+											</button>
+										</div>
+									</div>
+
+
+									<div class="item">
+										<div class="name">Вид обработки</div>
+
+										<div class="data">
+											<div class="field">
+												<input type="checkbox" name="group2" id="group2_check1">
+												<label for="group2_check1">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Обрезной</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group2" id="group2_check2">
+												<label for="group2_check2">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Необрезной</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group2" id="group2_check3">
+												<label for="group2_check3">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Строганый</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="item">
+										<div class="name">Порода древесины</div>
+
+										<div class="data">
+											<div class="field">
+												<input type="checkbox" name="group3" id="group3_check1">
+												<label for="group3_check1">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Сосна</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group3" id="group3_check2">
+												<label for="group3_check2">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Ель</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group3" id="group3_check3">
+												<label for="group3_check3">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Лиственница</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group3" id="group3_check4">
+												<label for="group3_check4">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Дуб</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group3" id="group3_check5">
+												<label for="group3_check5">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Бук</div>
+												</label>
+											</div>
+
+											<div class="hide">
+												<div class="field">
+													<input type="checkbox" name="group3" id="group3_check6">
+													<label for="group3_check6">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Брус</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group3" id="group3_check7">
+													<label for="group3_check7">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Доска</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group3" id="group3_check8">
+													<label for="group3_check8">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Брусок</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group3" id="group3_check9">
+													<label for="group3_check9">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Вагонка</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group3" id="group3_check10">
+													<label for="group3_check10">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Блок хаус</div>
+													</label>
+												</div>
+											</div>
+
+											<button class="spoler_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_down"></use></svg>
+												<span>Еще 5</span>
+												<span>Свернуть</span>
+											</button>
+										</div>
+									</div>
+
+
+									<div class="item">
+										<div class="name">Назначение</div>
+
+										<div class="data">
+											<div class="field">
+												<input type="checkbox" name="group4" id="group4_check1">
+												<label for="group4_check1">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Для внутренней отделки</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group4" id="group4_check2">
+												<label for="group4_check2">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Для наружней отделки</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="item">
+										<div class="name">Влажность</div>
+
+										<div class="data">
+											<div class="field">
+												<input type="checkbox" name="group5" id="group5_check1">
+												<label for="group5_check1">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Сухая (влажность < 22%)</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group5" id="group5_check2">
+												<label for="group5_check2">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Естественная (> 22%)</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="item">
+										<div class="name">Сорт</div>
+
+										<div class="data">
+											<div class="field">
+												<input type="checkbox" name="group6" id="group6_check1">
+												<label for="group6_check1">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>Отборный</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group6" id="group6_check2">
+												<label for="group6_check2">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>1</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group6" id="group6_check3">
+												<label for="group6_check3">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>2</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group6" id="group6_check4">
+												<label for="group6_check4">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>3</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group6" id="group6_check5">
+												<label for="group6_check5">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>4</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="item">
+										<div class="name">Толщина</div>
+
+										<div class="data">
+											<div class="field">
+												<input type="checkbox" name="group7" id="group7_check1">
+												<label for="group7_check1">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>25</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group7" id="group7_check2">
+												<label for="group7_check2">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>32</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group7" id="group7_check3">
+												<label for="group7_check3">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>40</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group7" id="group7_check4">
+												<label for="group7_check4">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>44</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group7" id="group7_check5">
+												<label for="group7_check5">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>50</div>
+												</label>
+											</div>
+
+											<div class="hide">
+												<div class="field">
+													<input type="checkbox" name="group7" id="group7_check6">
+													<label for="group7_check6">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Брус</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group7" id="group7_check7">
+													<label for="group7_check7">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Доска</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group7" id="group7_check8">
+													<label for="group7_check8">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Брусок</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group7" id="group7_check9">
+													<label for="group7_check9">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Вагонка</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group7" id="group7_check10">
+													<label for="group7_check10">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Блок хаус</div>
+													</label>
+												</div>
+											</div>
+
+											<button class="spoler_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_down"></use></svg>
+												<span>Еще 5</span>
+												<span>Свернуть</span>
+											</button>
+										</div>
+									</div>
+
+
+									<div class="item">
+										<div class="name">Ширина</div>
+
+										<div class="data">
+											<div class="field">
+												<input type="checkbox" name="group8" id="group8_check1">
+												<label for="group8_check1">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>50</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group8" id="group8_check2">
+												<label for="group8_check2">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>75</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group8" id="group8_check3">
+												<label for="group8_check3">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>100</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group8" id="group8_check4">
+												<label for="group8_check4">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>125</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group8" id="group8_check5">
+												<label for="group8_check5">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>150</div>
+												</label>
+											</div>
+
+											<div class="hide">
+												<div class="field">
+													<input type="checkbox" name="group8" id="group8_check6">
+													<label for="group8_check6">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Брус</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group8" id="group8_check7">
+													<label for="group8_check7">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Доска</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group8" id="group8_check8">
+													<label for="group8_check8">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Брусок</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group8" id="group8_check9">
+													<label for="group8_check9">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Вагонка</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group8" id="group8_check10">
+													<label for="group8_check10">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Блок хаус</div>
+													</label>
+												</div>
+											</div>
+
+											<button class="spoler_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_down"></use></svg>
+												<span>Еще 5</span>
+												<span>Свернуть</span>
+											</button>
+										</div>
+									</div>
+
+
+									<div class="item">
+										<div class="name">Длина</div>
+
+										<div class="data">
+											<div class="field">
+												<input type="checkbox" name="group9" id="group9_check1">
+												<label for="group9_check1">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>3 000</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group9" id="group9_check2">
+												<label for="group9_check2">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>3 500</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group9" id="group9_check3">
+												<label for="group9_check3">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>4  000</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group9" id="group9_check4">
+												<label for="group9_check4">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>4 500</div>
+												</label>
+											</div>
+
+											<div class="field">
+												<input type="checkbox" name="group9" id="group9_check5">
+												<label for="group9_check5">
+													<div class="check">
+														<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													</div>
+													<div>5 000</div>
+												</label>
+											</div>
+
+											<div class="hide">
+												<div class="field">
+													<input type="checkbox" name="group9" id="group9_check6">
+													<label for="group9_check6">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Брус</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group9" id="group9_check7">
+													<label for="group9_check7">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Доска</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group9" id="group9_check8">
+													<label for="group9_check8">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Брусок</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group9" id="group9_check9">
+													<label for="group9_check9">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Вагонка</div>
+													</label>
+												</div>
+
+												<div class="field">
+													<input type="checkbox" name="group9" id="group9_check10">
+													<label for="group9_check10">
+														<div class="check">
+															<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														</div>
+														<div>Блок хаус</div>
+													</label>
+												</div>
+											</div>
+
+											<button class="spoler_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_down"></use></svg>
+												<span>Еще 5</span>
+												<span>Свернуть</span>
+											</button>
+										</div>
+									</div>
+
+									<div class="submit">
+										<button type="reset" class="reset_btn">Сбросить фильтр</button>
+									</div>
+								</form>
+							</div>
+						</aside>
+
+
+						<section class="content">
+							<section class="products">
+								<div class="row">
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Рейки и доски</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Рейка строганая 20х30x2000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>70 ₽/шт.</div>
+													<div class="old">75 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb2.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Брус профилированный</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Брусок строганый 40х40х2000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>170 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb3.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Рейки и доски</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Доска строганая 20х96x3000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>243 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Рейки и доски</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Рейка строганая 20х30x2000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>70 ₽/шт.</div>
+													<div class="old">75 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb2.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Брус профилированный</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Брусок строганый 40х40х2000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>170 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb3.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Рейки и доски</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Доска строганая 20х96x3000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>243 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Рейки и доски</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Рейка строганая 20х30x2000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>70 ₽/шт.</div>
+													<div class="old">75 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb2.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Брус профилированный</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Брусок строганый 40х40х2000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>170 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb3.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Рейки и доски</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Доска строганая 20х96x3000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>243 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Рейки и доски</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Рейка строганая 20х30x2000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>70 ₽/шт.</div>
+													<div class="old">75 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb2.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Брус профилированный</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Брусок строганый 40х40х2000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>170 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb3.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Рейки и доски</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Доска строганая 20х96x3000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>243 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Рейки и доски</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Рейка строганая 20х30x2000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>70 ₽/шт.</div>
+													<div class="old">75 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb2.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Брус профилированный</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Брусок строганый 40х40х2000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>170 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="product_wrap">
+										<div class="product">
+											<div class="thumb">
+												<img data-src="images/tmp/product_thumb3.jpg" alt="" class="lazyload">
+											</div>
+
+											<div class="info">
+												<div class="category">
+													<a href="/">Рейки и доски</a>
+												</div>
+
+												<div class="name">
+													<a href="/">Доска строганая 20х96x3000 мм хвоя</a>
+												</div>
+
+												<div class="price">
+													<div>243 ₽/шт.</div>
+												</div>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+
+							<div class="load_more">
+								<button class="btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+									<span>Показать еще</span>
+								</button>
+							</div>
+						</section>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<img src="images/logo_white.svg" alt="">
+							</div>
+
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow" class="odnokl_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_odnokl"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+								</a>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="title">Брус</div>
+
+							<div class="items">
+								<div><a href="/">Обычный, непрофилированный, естественной влажности</a></div>
+								<div><a href="/">Обычный, непрофилированный, камерной сушки</a></div>
+								<div><a href="/">Профилированный естественной сушки</a></div>
+								<div><a href="/">Профилированный камерной сушки</a></div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="title">Пиломатериалы</div>
+
+							<div class="items columns">
+								<div><a href="/">Доска обрезная</a></div>
+								<div><a href="/">Доска строганая сухая</a></div>
+								<div><a href="/">Доска обрезная</a></div>
+								<div><a href="/">Брусок обрезной</a></div>
+								<div><a href="/">Брусок строганый</a></div>
+								<div><a href="/">Имитация бруса</a></div>
+								<div><a href="/">Половая доска</a></div>
+								<div><a href="/">Вагонка</a></div>
+								<div><a href="/">Блок-хаус</a></div>
+								<div><a href="/">Планкен</a></div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="title">Информация</div>
+
+							<div class="items">
+								<div><a href="/">О компании</a></div>
+								<div><a href="/">Доставка и оплата</a></div>
+								<div><a href="/">Профессионалам и юридическим лицам</a></div>
+								<div><a href="/">Контакты</a></div>
+							</div>
+						</div>
+					</div>
+
+					<img data-src="images/bg_footer.svg" alt="" class="bg lazyload">
+					<img data-src="images/bg_footer.svg" alt="" class="bg2 lazyload">
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont">
+						<div class="row">
+							<div class="item">
+								<div class="title">Адрес</div>
+
+								<div class="location">123456, г. Москва,<br> ул. Б. Коммунистическая, д. 23с3</div>
+
+								<div class="map_link">
+									<a href="/">Схема проезда</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">Телефоны</div>
+
+								<div class="phone">
+									<a href="tel:+74955592956">+7 495 559 29 56</a>
+								</div>
+
+								<div class="phone">
+									<a href="tel:+79159873223">+7 915 987 32 23</a>
+								</div>
+
+								<div><button class="callback_btn modal_btn" data-modal="#callback_modal">Обратный звонок</button></div>
+							</div>
+
+							<div class="item">
+								<div class="title">Мессенджеры</div>
+
+								<div class="messenger">
+									<div class="icon">
+										<img src="images/ic_whatsapp.svg" alt="">
+									</div>
+
+									<div>
+										<div class="name">WhatsApp</div>
+										<div><a href="tel:+79159873223">+7 915 987 32 23</a></div>
+									</div>
+								</div>
+
+								<div class="messenger">
+									<div class="icon">
+										<img src="images/ic_telegram.svg" alt="">
+									</div>
+
+									<div>
+										<div class="name">Telegram</div>
+										<div><a href="/">@nssles</a></div>
+									</div>
+								</div>
+
+								<div class="messenger">
+									<div class="icon">
+										<img src="images/ic_viber.svg" alt="">
+									</div>
+
+									<div>
+										<div class="name">Viber</div>
+										<div><a href="tel:+79159873223">+7 915 987 32 23</a></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">E-mail</div>
+
+								<div class="email">
+									<div class="name">Отдел продаж</div>
+									<div><a href="mailto:sales@nssles.ru">sales@nssles.ru</a></div>
+								</div>
+
+								<div class="email">
+									<div class="name">Корпоративные клиенты</div>
+									<div><a href="mailto:corp@nssles.ru">corp@nssles.ru</a></div>
+								</div>
+
+								<div class="email">
+									<div class="name">Договоры и документы</div>
+									<div><a href="mailto:buh@nssles.ru">buh@nssles.ru</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Обратный звонок</div>
+
+			<div class="modal_desc">Если Вам нужна помощь, оставьте заявку и наш менеджер перезвонит Вам в течение 5 минут.</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Имя">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="Телефон">
+						</div>
+					</div>
+
+					<div class="line agree">
+						<input type="checkbox" name="agree" id="callback_agree_check" checked>
+							<label for="callback_agree_check">
+							<div class="check">
+								<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+							</div>
+
+							<div>Нажимая кнопку «Отправить», Вы соглашаетесь с <a href="/" target="_blank">Политикой обработки персональных данных</a></div>
+						</label>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">Отправить</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
