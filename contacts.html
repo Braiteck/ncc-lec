@@ -96,15 +96,10 @@
 								</a>
 							</div>
 
-							<div class="langs modal_cont">
-								<button class="btn mini_modal_btn" data-modal-id="#langs_modal">
+							<div class="langs">
+								<button class="btn">
 									<span>ENG</span>
-									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_down"></use></svg>
 								</button>
-
-								<div class="mini_modal" id="langs_modal">
-
-								</div>
 							</div>
 
 							<a href="/" class="cart_link">
@@ -383,6 +378,7 @@
 					<div class="cont row">
 						<button class="menu_btn">
 							<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
 						</button>
 
 						<a href="/" class="logo">
@@ -808,5 +804,14 @@
 		<script src="js/fancybox.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
+
+		<!-- Яндекс карты -->
+		<script src="http://api-maps.yandex.ru/2.1.75/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
+		<script>
+			$(window).on('load', () => {
+				// Карта
+				initMap()
+			})
+		</script>
 	</body>
 </html>

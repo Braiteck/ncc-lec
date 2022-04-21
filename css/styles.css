@@ -831,9 +831,10 @@ header .langs .btn
 
     display: flex;
 
-    padding: 10px;
+    padding: 10px 16px;
 
     transition: background .2s linear;
+    text-decoration: none;
 
     border-radius: 5px;
     background: #f6f6e3;
@@ -853,18 +854,6 @@ header .langs .btn span
 }
 
 
-header .langs .btn .icon
-{
-    display: block;
-
-    width: 9px;
-    height: 9px;
-    margin-left: 8px;
-
-    transition: transform .2s linear;
-}
-
-
 header .langs .btn:hover
 {
     background: #eed;
@@ -878,44 +867,6 @@ header .langs .btn:hover span
 header .langs .btn.active
 {
     background: none;
-}
-
-header .langs .btn.active .icon
-{
-    transform: rotate(180deg);
-}
-
-
-header .langs .mini_modal,
-header .langs .mini_modal.active
-{
-    line-height: 18px;
-
-    z-index: 9;
-    top: 0;
-
-    min-width: 100%;
-    padding: 36px 10px 10px;
-
-    white-space: nowrap;
-
-    border-radius: 5px;
-    background: #fff;
-    box-shadow: 0 10px 25px rgba(138, 90, 48, .07);
-}
-
-header .langs .mini_modal a
-{
-    color: #577d31;
-
-    display: block;
-
-    text-decoration: none;
-}
-
-header .langs .mini_modal a.active
-{
-    display: none;
 }
 
 
@@ -1325,9 +1276,10 @@ header .menu_item > a.active:after
 
     display: flex;
 
-    padding: 10px;
+    padding: 10px 16px;
 
     transition: background .2s linear;
+    text-decoration: none;
 
     border-radius: 5px;
     background: #f6f6e3;
@@ -1344,72 +1296,6 @@ header .menu_item > a.active:after
     transition: border-color .2s linear;
 
     border-bottom: 1px dashed #577d31;
-}
-
-
-.mob_menu .langs .btn .icon
-{
-    display: block;
-
-    width: 9px;
-    height: 9px;
-    margin-left: 8px;
-
-    transition: transform .2s linear;
-}
-
-
-.mob_menu .langs .btn:hover
-{
-    background: #eed;
-}
-
-.mob_menu .langs .btn:hover span
-{
-    border-color: transparent;
-}
-
-.mob_menu .langs .btn.active
-{
-    background: none;
-}
-
-.mob_menu .langs .btn.active .icon
-{
-    transform: rotate(180deg);
-}
-
-
-.mob_menu .langs .mini_modal,
-.mob_menu .langs .mini_modal.active
-{
-    line-height: 18px;
-
-    z-index: 9;
-    top: 0;
-
-    min-width: 100%;
-    padding: 36px 10px 10px;
-
-    white-space: nowrap;
-
-    border-radius: 5px;
-    background: #fff;
-    box-shadow: 0 10px 25px rgba(138, 90, 48, .07);
-}
-
-.mob_menu .langs .mini_modal a
-{
-    color: #577d31;
-
-    display: block;
-
-    text-decoration: none;
-}
-
-.mob_menu .langs .mini_modal a.active
-{
-    display: none;
 }
 
 
@@ -4696,7 +4582,7 @@ aside .filter .reset_btn:hover
 
 .certs .cert:hover .thumb:after
 {
-    background: linear-gradient(180deg, rgba(87, 125, 49, .9) 0%, #577d31 100%);
+    background: linear-gradient(180deg, rgba(87, 125, 49, .6) 0%, #577d31 100%);
 }
 
 

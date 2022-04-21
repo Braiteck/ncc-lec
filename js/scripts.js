@@ -255,6 +255,7 @@ $(() => {
 
 		if ($(this).hasClass('up')) {
 			$('.sort .btn').removeClass('down up')
+			$(this).addClass('down')
 			return false
 		}
 
@@ -405,5 +406,36 @@ function productHeight(context, step) {
 
 		start = start + step
 		finish = finish + step
+	})
+}
+
+
+// Карта
+function initMap() {
+	ymaps.ready(() => {
+		let myMap = new ymaps.Map('map', {
+			center: [55.744363, 37.663297],
+			zoom: 16,
+			controls: []
+		})
+
+		// Кастомный маркер
+		let myPlacemark = new ymaps.Placemark([55.744363, 37.663297], {}, {
+			iconLayout: 'default#image',
+			iconImageHref: 'images/ic_map_marker.svg',
+			iconImageSize: [102, 101],
+			iconImageOffset: [-51, -51]
+		})
+
+		myMap.geoObjects.add(myPlacemark)
+
+		myMap.controls.add('zoomControl', {
+			position: {
+				right: '20px',
+				top: '20px'
+			}
+		})
+
+		myMap.behaviors.disable('scrollZoom')
 	})
 }
